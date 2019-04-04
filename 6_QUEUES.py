@@ -34,7 +34,9 @@ async def main():
 
 if __name__ == '__main__':
     start = time.perf_counter()
+
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
+
     elapsed = time.perf_counter() - start
     print(f'Program completed in {elapsed:0.5f} seconds.')

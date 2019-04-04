@@ -26,5 +26,3 @@ async def iterate_over():
 
 loop.run_until_complete(iterate_over())
 loop.close()
-
-import pdb; pdb.set_trace()
